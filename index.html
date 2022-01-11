@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <style>
+       body{
+         display:flex;
+         flex-direction:column;
+         justify-content:center;
+         align-items:center;
+         font-family:Arial;
+         text-align:center
+       }
+
+       h1{
+        color:purple;
+        font-size:70px;
+       }
+
+       span{
+         color:green;
+       }
+
+       form{
+         width:300px;
+         margin-bottom:20px;
+       }
+
+       input[type="text"]{
+        height:50px;
+        width:100%;
+        font-size:20px;
+        border-radius:20px;
+        border: 1px solid black;
+        text-indent:10px;
+        outline:none;
+       }
+
+       input[type="submit"]{
+        font-size:20px;
+        padding: 5px 25px 5px 25px;
+        border:none;
+        cursor:pointer;
+        transition:all 0.5s;
+       }
+
+       input[type="submit"]:hover{
+        box-shadow: 8px 8px grey;
+        margin-bottom:20px;
+       }
+    </style>
+</head>
+<body>
+    <div>
+
+    <form method="GET">
+        <h1>Tro<span>og</span>gle</h1>
+        <input type="text" name="searchbox" placeholder="Type here . . .">
+        <input type="text" name="resultCount" placeholder="Results number" pattern="[0-9]+">
+        <br><br>
+        <input type="submit" value="Search">
+    </form>
+    </div>
+</body>
+</html>
