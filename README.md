@@ -25,7 +25,7 @@ which will have the whole functionality of a large scale search engine.
 
 -Similarity.py: csv, math, και pandas.
 
-4) To start Troogle search engine we run server.py and then we are going to localhost in 8080 port. There wr write
+4) To start Troogle search engine we run server.py and then we are going to localhost in 8080 port. There we write
 our query, how many pages we want in return (top-k) and then we search.
 
 5) we run it in PyCharm Conda 3 intepreter.
